@@ -36,8 +36,8 @@ function App() {
   }
 
   return (
-    <main className="mx-auto min-h-screen w-[min(100%-2.5rem,31.25rem)] py-8 sm:py-9">
-      <h1 className="mb-9 text-center text-[2rem] font-bold leading-tight text-neutral-800 sm:mb-12">
+    <main className="mx-auto min-h-screen w-[min(100%-2rem,44rem)] py-8 sm:py-10">
+      <h1 className="mb-9 text-center text-[2.5rem] font-bold leading-tight text-neutral-800 sm:mb-12 sm:text-5xl">
         #todo
       </h1>
 

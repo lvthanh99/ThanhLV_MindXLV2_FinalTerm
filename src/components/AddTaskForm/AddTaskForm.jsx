@@ -20,13 +20,13 @@ function AddTaskForm({ onAddTask }) {
     >
       <Input
         aria-label="Add details"
-        className="!h-[52px] min-w-0 flex-1 !rounded-lg !px-3"
+        className="!h-14 min-w-0 flex-1 !rounded-lg !px-4 !text-base"
         placeholder="add details"
         value={title}
         onChange={(event) => setTitle(event.target.value)}
       />
       <Button
-        className="!h-[52px] !w-[76px] !shrink-0 !rounded-lg !px-4 sm:!w-[90px]"
+        className="!h-14 !w-[76px] !shrink-0 !rounded-lg !px-4 !text-base sm:!w-[96px]"
         type="primary"
         htmlType="submit"
       >

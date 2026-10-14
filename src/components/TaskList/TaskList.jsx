@@ -14,16 +14,16 @@ function TaskList({
 
   return (
     <>
-      <ul className="m-0 flex list-none flex-col gap-3 p-0">
+      <ul className="m-0 flex list-none flex-col gap-4 p-0">
         {tasks.map((task) => (
           <li
-            className="flex min-h-7 items-center justify-between gap-3"
+            className="flex min-h-8 items-center justify-between gap-3"
             key={task.id}
           >
             <Checkbox
               checked={!task.active}
               onChange={() => onToggleTask(task.id)}
-              className="min-w-0 flex-1 [&_.ant-checkbox+span]:break-words [&_.ant-checkbox+span]:text-base"
+              className="min-w-0 flex-1 [&_.ant-checkbox+span]:break-words [&_.ant-checkbox+span]:text-base sm:[&_.ant-checkbox+span]:text-lg"
             >
               <span
                 className={
